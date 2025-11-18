@@ -54,24 +54,24 @@ um objeto que **implementa a mesma interface**, mas cujo comportamento é neutro
 classDiagram
     direction LR
 
-    class DB
+    class DB {}
 
-    class Employee {
+    class IUser {
         <<interface>>
     }
 
-    class NullEmployee {
+    class NullUser {
     }
 
-    class EmployeeImpl {
+    class User {
     }
 
-    Employee <|.. NullEmployee
-    Employee <|.. EmployeeImpl
+    IUser <|-- NullUser
+    IUser <|-- User
 
-    DB --> Employee : retorna\n(Employee ou NullEmployee)
-    DB --> NullEmployee : <<creates>>
-    DB --> EmployeeImpl : <<creates>>
+    DB --> IUser : retorna\n(Employee ou NullEmployee)
+    DB --> NullUser : <<creates>>
+    DB --> User : <<creates>>
 ```
 
 Em vez de:
