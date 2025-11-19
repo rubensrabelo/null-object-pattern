@@ -17,9 +17,9 @@ public class UserRepository {
     }
 
     public IUser findById(Long id) {
-        if (db.containsKey(id)) {
+        if (db.containsKey(id))
             return db.get(id);
-        }
+        
         return new NullUser();
     }
 }

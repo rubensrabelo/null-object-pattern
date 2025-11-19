@@ -13,6 +13,8 @@ public class UserService {
 
     public void notifyUser(Long id, String message) {
         IUser user = repository.findById(id);
+
+        // if(user != null)
         user.sendNotification(message);
     }
 }
