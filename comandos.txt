@@ -1,0 +1,6 @@
+1. Rode este comando no CMD para listar todos os .java corretamente: 
+    - dir /s /b *.java > sources.txt
+2. Compile:
+    - javac @sources.txt -d out
+3. Rode:
+    - java -cp out App

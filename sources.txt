@@ -1,6 +1,6 @@
-C:\github_projetos\disciplina\pds-seminario\null-object-pattern\src\App.java
-C:\github_projetos\disciplina\pds-seminario\null-object-pattern\src\application\service\UserService.java
-C:\github_projetos\disciplina\pds-seminario\null-object-pattern\src\domain\contract\IUser.java
-C:\github_projetos\disciplina\pds-seminario\null-object-pattern\src\domain\entity\User.java
-C:\github_projetos\disciplina\pds-seminario\null-object-pattern\src\domain\nullobject\NullUser.java
-C:\github_projetos\disciplina\pds-seminario\null-object-pattern\src\infra\repository\UserRepository.java
+C:\github_projetos\disciplina\null-object-pattern\src\App.java
+C:\github_projetos\disciplina\null-object-pattern\src\application\service\UserService.java
+C:\github_projetos\disciplina\null-object-pattern\src\domain\contract\IUser.java
+C:\github_projetos\disciplina\null-object-pattern\src\domain\entity\User.java
+C:\github_projetos\disciplina\null-object-pattern\src\domain\nullobject\NullUser.java
+C:\github_projetos\disciplina\null-object-pattern\src\infra\repository\UserRepository.java

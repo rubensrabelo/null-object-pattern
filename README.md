@@ -69,7 +69,7 @@ classDiagram
     IUser <|-- NullUser
     IUser <|-- User
 
-    DB --> IUser : retorna\n(Employee ou NullEmployee)
+    DB --> IUser : retorna\n(User ou NullUser)
     DB --> NullUser : <<creates>>
     DB --> User : <<creates>>
 ```
